@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vineet | Aspiring Data Scientist</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">Vineet Prakash<span class="dot">.</span></div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+            <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-moon">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-sun" style="display: none;">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+        </button>
+    </nav>
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="badge">✦ Data Scientist</div>
+            <h1>Hello, I'm <span class="gradient-text">Vineet Prakash</span></h1>
+            <p>Data Scientist passionate about turning raw data into meaningful stories.
+                I transform raw data into actionable insights using Python, Machine Learning, and statistical modeling.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                <a href="resume.pdf" download class="btn btn-outline">↓ Resume</a>
+            </div>
+        </div>
+        <div class="hero-graphic">
+            <div class="blob"></div>
+            <div class="blob blob-2"></div>
+            <img src="profile.jpg" alt="Vineet Prakash" class="profile-img">
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="about section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content grid">
+            <div class="about-text">
+                <p>
+                    Hi! I'm Vineet —an Electronics and communication Engineering graduate and a passionate Data Science
+                    enthusiast from Delhi, India. I started my journey by learning Python and fell in love with how data
+                    can tell stories and drive decisions.
+                </p>
+                <p>
+                    I'm currently building hands-on skills in Machine Learning, Statistical Analysis, and Data
+                    Visualization.
+                    My goal is to land a Data Science role where I can solve real-world problems with data.
+                </p>
+                <p>
+                    When I'm not training models, you'll find me solving SQL puzzles on HackerRank,
+                    exploring Kaggle competitions, or contributing to open-source data projects on GitHub.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3>10+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-box">
+                    <h3>5+</h3>
+                    <p>ML Models Deployed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="education section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <div class="education-icon">🎓</div>
+                <div class="education-info">
+                    <h3>Master of Science in Data Science</h3>
+                    <p class="institution">University Name</p>
+                    <p class="duration">2023 - 2025</p>
+                    <p class="description">Focused on Machine Learning, Deep Learning, and Big Data Technologies.
+                        Graduated with Honors.</p>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="education-icon">🎓</div>
+                <div class="education-info">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <p class="institution">University Name</p>
+                    <p class="duration">2019 - 2023</p>
+                    <p class="description">Core coursework in Algorithms, Data Structures, and Database Management
+                        Systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="skills section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skill-container">
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    alt="Python" class="skill-icon"> Python</div>
+            <div class="skill"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqldeveloper/sqldeveloper-original.svg"
+                    alt="SQL" class="skill-icon"> SQL</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                    alt="Pandas" class="skill-icon"> Pandas</div>
+            <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                    alt="NumPy" class="skill-icon"> NumPy</div>
+            <div class="skill">🧮 Mathematics</div>
+            <div class="skill">📈 Statistics</div>
+            <div class="skill">🤖 Machine Learning</div>
+            <div class="skill">🧠 Deep Learning</div>
+            <div class="skill">💡 Artificial Intelligence</div>
+            <div class="skill">📊 Data Visualization</div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="projects section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="slider-wrapper" id="projects-slider">
+            <button class="slider-btn left" aria-label="Scroll left">&#10094;</button>
+            <div class="project-grid slider-content" id="projects-content">
+                <div class="project-card">
+                    <div class="project-img-placeholder">📊</div>
+                    <div class="project-info">
+                        <h3>Customer Churn Prediction</h3>
+                        <p>Built a comprehensive machine learning pipeline to predict customer churn using logistic
+                            regression and random forests.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Scikit-Learn</span><span>Pandas</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-placeholder">📈</div>
+                    <div class="project-info">
+                        <h3>Sales Data Analysis</h3>
+                        <p>Performed deep exploratory data analysis (EDA) and created interactive dashboards to uncover
+                            seasonal sales trends.</p>
+                        <div class="project-tags">
+                            <span>Matplotlib</span><span>Seaborn</span><span>SQL</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-placeholder">🧠</div>
+                    <div class="project-info">
+                        <h3>NLP Sentiment Classifier</h3>
+                        <p>Trained a BERT-based sentiment analysis model on social media reviews achieving 92% accuracy across 5 sentiment classes.</p>
+                        <div class="project-tags">
+                            <span>PyTorch</span><span>HuggingFace</span><span>BERT</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn right" aria-label="Scroll right">&#10095;</button>
+        </div>
+        <div class="slider-dots" id="projects-dots"></div>
+    </section>
+
+    <!-- ================= CERTIFICATIONS ================= -->
+    <section id="certifications" class="certifications section">
+        <h2 class="section-title">Certifications</h2>
+        <div class="slider-wrapper" id="certs-slider">
+            <button class="slider-btn left" aria-label="Scroll left">&#10094;</button>
+            <div class="cert-grid slider-content" id="certs-content">
+                <div class="cert-card">
+                    <div class="cert-badge">✓ Verified</div>
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-award">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3>IBM Data Science Professional Certificate</h3>
+                        <p>Coursera &middot; IBM</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge">✓ Verified</div>
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-award">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Machine Learning Bootcamp</h3>
+                        <p>Coursera &middot; University of Michigan</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge">✓ Verified</div>
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-award">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Python for Data Science &amp; AI</h3>
+                        <p>Coursera &middot; IBM</p>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn right" aria-label="Scroll right">&#10095;</button>
+        </div>
+        <div class="slider-dots" id="certs-dots"></div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact section">
+        <div class="contact-box">
+            <h2>Let's work together</h2>
+            <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try
+                my best to get back to you!</p>
+            <div class="contact-links">
+                <a href="mailto:vineetprakash03@gmail.com" class="contact-item" onclick="previewEmail(event)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-mail">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/vineetprakash03/" target="_blank" class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/vin1bun" target="_blank" class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-github">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                    GitHub
+                </a>
+                <a href="https://www.kaggle.com/vin1bun" target="_blank" class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-activity">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                    </svg>
+                    Kaggle
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <p>© 2026 Vineet. Designed with clarity and purpose.</p>
+    </footer>
+
+    <script>
+        // ── Theme Toggle ──────────────────────────────────────
+        const toggleButton = document.getElementById('theme-toggle');
+        const rootElement = document.documentElement;
+        const moonIcon = document.getElementById('moon-icon');
+        const sunIcon = document.getElementById('sun-icon');
+
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (savedTheme) {
+            rootElement.setAttribute('data-theme', savedTheme);
+            updateIcons(savedTheme);
+        } else if (prefersDark) {
+            rootElement.setAttribute('data-theme', 'dark');
+            updateIcons('dark');
+        }
+
+        toggleButton.addEventListener('click', () => {
+            const newTheme = rootElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            rootElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateIcons(newTheme);
+        });
+
+        function updateIcons(theme) {
+            moonIcon.style.display = theme === 'dark' ? 'none' : 'block';
+            sunIcon.style.display  = theme === 'dark' ? 'block' : 'none';
+        }
+
+        // ── Mobile Hamburger Menu ─────────────────────────────
+        const hamburger = document.getElementById('hamburger');
+        const navLinks  = document.getElementById('nav-links');
+        const navOverlay = document.getElementById('nav-overlay');
+
+        function closeMenu() {
+            hamburger.classList.remove('open');
+            navLinks.classList.remove('open');
+            navOverlay.classList.remove('open');
+            hamburger.setAttribute('aria-expanded', 'false');
+        }
+
+        hamburger.addEventListener('click', () => {
+            const isOpen = navLinks.classList.contains('open');
+            if (isOpen) { closeMenu(); }
+            else {
+                hamburger.classList.add('open');
+                navLinks.classList.add('open');
+                navOverlay.classList.add('open');
+                hamburger.setAttribute('aria-expanded', 'true');
+            }
+        });
+
+        navOverlay.addEventListener('click', closeMenu);
+        document.querySelectorAll('.nav-link').forEach(link => link.addEventListener('click', closeMenu));
+
+        // ── Active Nav Link on Scroll ─────────────────────────
+        const sections = document.querySelectorAll('section[id]');
+        const navLinkEls = document.querySelectorAll('.nav-link');
+
+        const navObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinkEls.forEach(a => a.classList.remove('active'));
+                    const active = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+                    if (active) active.classList.add('active');
+                }
+            });
+        }, { threshold: 0.4 });
+
+        sections.forEach(s => navObserver.observe(s));
+
+        // ── Scroll Reveal Animations ──────────────────────────
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.hero-content, .section-title, .about-text, .stat-box, .project-card, .cert-card, .contact-box').forEach(el => {
+            el.classList.add('reveal');
+            revealObserver.observe(el);
+        });
+
+        document.querySelectorAll('.skill').forEach((el, i) => {
+            el.classList.add('reveal');
+            el.style.transitionDelay = `${i * 0.07}s`;
+            revealObserver.observe(el);
+        });
+
+        // ── Email Preview ─────────────────────────────────────
+        function previewEmail(e) {
+            e.preventDefault();
+            const btn  = e.currentTarget;
+            const span = btn.querySelector('span');
+            if (span.innerText === 'Email') {
+                span.innerText = 'vineetprakash03@gmail.com';
+                if (navigator.clipboard) navigator.clipboard.writeText('vineetprakash03@gmail.com');
+                btn.style.background = 'var(--primary-color)';
+                btn.style.color = 'white';
+                setTimeout(() => { span.innerText = 'Mail Now'; }, 2500);
+            } else {
+                window.location.href = 'mailto:vineetprakash03@gmail.com';
+            }
+        }
+
+        // ── Slider Logic (drag + touch + dots) ───────────────
+        function initSlider(wrapperId, contentId, dotsId) {
+            const wrapper = document.getElementById(wrapperId);
+            const content = document.getElementById(contentId);
+            const dotsContainer = document.getElementById(dotsId);
+            if (!wrapper || !content) return;
+
+            const leftBtn  = wrapper.querySelector('.slider-btn.left');
+            const rightBtn = wrapper.querySelector('.slider-btn.right');
+
+            // ── Dot Indicators
+            function buildDots() {
+                if (!dotsContainer) return;
+                const items = content.children;
+                dotsContainer.innerHTML = '';
+                Array.from(items).forEach((_, i) => {
+                    const dot = document.createElement('button');
+                    dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
+                    dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
+                    dot.addEventListener('click', () => {
+                        const itemWidth = items[0].offsetWidth + parseInt(getComputedStyle(content).gap);
+                        content.scrollTo({ left: itemWidth * i, behavior: 'smooth' });
+                    });
+                    dotsContainer.appendChild(dot);
+                });
+            }
+
+            function updateDots() {
+                if (!dotsContainer) return;
+                const items = content.children;
+                if (!items.length) return;
+                const itemWidth = items[0].offsetWidth + parseInt(getComputedStyle(content).gap);
+                const activeIdx = Math.round(content.scrollLeft / itemWidth);
+                dotsContainer.querySelectorAll('.slider-dot').forEach((d, i) => {
+                    d.classList.toggle('active', i === activeIdx);
+                });
+                // Show/hide buttons
+                if (leftBtn)  leftBtn.style.opacity  = content.scrollLeft <= 0 ? '0.3' : '1';
+                if (rightBtn) rightBtn.style.opacity = content.scrollLeft + content.clientWidth >= content.scrollWidth - 2 ? '0.3' : '1';
+            }
+
+            buildDots();
+            content.addEventListener('scroll', updateDots, { passive: true });
+            updateDots();
+
+            // ── Arrow Buttons
+            if (leftBtn)  leftBtn.addEventListener('click',  () => content.scrollBy({ left: -340, behavior: 'smooth' }));
+            if (rightBtn) rightBtn.addEventListener('click', () => content.scrollBy({ left:  340, behavior: 'smooth' }));
+
+            // ── Mouse Drag
+            let isDown = false, startX, scrollLeft;
+
+            content.addEventListener('mousedown', (e) => {
+                isDown = true;
+                content.style.cursor = 'grabbing';
+                content.style.scrollBehavior = 'auto';
+                startX = e.pageX - content.offsetLeft;
+                scrollLeft = content.scrollLeft;
+            });
+            content.addEventListener('mouseleave', () => { isDown = false; content.style.cursor = 'grab'; content.style.scrollBehavior = 'smooth'; });
+            content.addEventListener('mouseup',    () => { isDown = false; content.style.cursor = 'grab'; content.style.scrollBehavior = 'smooth'; });
+            content.addEventListener('mousemove',  (e) => {
+                if (!isDown) return;
+                e.preventDefault();
+                content.scrollLeft = scrollLeft - (e.pageX - content.offsetLeft - startX) * 1.8;
+            });
+
+            // ── Touch Swipe
+            let touchStartX = 0, touchScrollLeft = 0;
+            content.addEventListener('touchstart', (e) => {
+                touchStartX = e.touches[0].pageX;
+                touchScrollLeft = content.scrollLeft;
+                content.style.scrollBehavior = 'auto';
+            }, { passive: true });
+            content.addEventListener('touchmove', (e) => {
+                const dx = touchStartX - e.touches[0].pageX;
+                content.scrollLeft = touchScrollLeft + dx;
+            }, { passive: true });
+            content.addEventListener('touchend', () => { content.style.scrollBehavior = 'smooth'; });
+        }
+
+        initSlider('projects-slider', 'projects-content', 'projects-dots');
+        initSlider('certs-slider',    'certs-content',    'certs-dots');
+    </script>
+
+</body>
+
+</html>
